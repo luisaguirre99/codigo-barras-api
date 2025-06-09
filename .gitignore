@@ -1,0 +1,26 @@
+# Carpetas de compilación
+/target/
+
+# Archivos temporales de sistema
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Archivos del entorno de desarrollo
+*.iml
+.idea/
+.vscode/
+
+# Configuraciones específicas del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos Maven
+/logs/
+!mvnw
+!mvnw.cmd
+.mvn/
+
+# Archivos de seguridad
+.env
