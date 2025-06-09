@@ -3,5 +3,3 @@ services:
     name: codigo-barras-api
     env: docker
     plan: free
-    buildCommand: "mvn clean install"
-    dockerCommand: "java -jar target/codigo-barras-api-1.0.0.jar"
