@@ -45,4 +45,10 @@ public class CodigoBarrasController {
         canvas.finish();
         out.close();
     }
+
+    // Endpoint de prueba para confirmar despliegue
+    @GetMapping("/ping")
+    public String ping() {
+        return "pong";
+    }
 }
