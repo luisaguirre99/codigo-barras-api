@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: codigo-barras-api
+    env: java
+    buildCommand: "./mvnw clean install"
+    startCommand: "java -jar target/codigo-barras-api-1.0.0.jar"
+    envVars:
+      - key: PORT
+        value: 8080
