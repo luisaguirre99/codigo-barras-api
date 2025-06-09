@@ -1,7 +1,7 @@
 services:
   - type: web
     name: codigo-barras-api
-    runtime: java
+    env: docker
     plan: free
     buildCommand: "mvn clean install"
-    startCommand: "java -jar target/codigo-barras-api-1.0.0.jar"
+    dockerCommand: "java -jar target/codigo-barras-api-1.0.0.jar"
